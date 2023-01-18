@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".FourFragment">
+    <TextView
+        android:id="@+id/tv_name2"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="60dp"
+        />
+
+    <TextView
+        android:id="@+id/tw_age2"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="60dp"/>
+
+    <TextView
+        android:id="@+id/Address1"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gorod"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="60dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kot"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Спасибо за информацию, за тобой уже выехали придурок"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
