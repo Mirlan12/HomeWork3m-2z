@@ -53,6 +53,8 @@ public class ThirdFragment extends Fragment {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 bundle.putString("Address", address.getText().toString());
+                bundle.putString("name1", tv_name1.getText().toString());
+                bundle.putString("age1", name_age.getText().toString());
                 FourFragment fragment = new FourFragment();
                 fragment.setArguments(bundle);
                 requireActivity().getSupportFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, fragment).commit();
